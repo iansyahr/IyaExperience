@@ -17,6 +17,8 @@ if you want run as service
 	$ systemctl enable --now code-server@$USER
 	$ systemctl start code-server@$USER
 
+```code-server``` will run to http://127.0.0.1:8080
+
 Your password is in ```~/.config/code-server/config.yaml```
 
 	$ cat ~/.config/code-server/config.yaml
